@@ -1,7 +1,7 @@
-import 'dart:js';
+
 import 'dart:html';
 
-import 'package:websocket_rd/skyway.dart';
+import 'package:skyway_interop/skyway.dart';
 void main() async {
   var key = window.localStorage["skywayKey"];
   var peer = new Peer(key);
